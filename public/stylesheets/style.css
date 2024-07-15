@@ -1,0 +1,51 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.movieDetail {
+    margin: 10px 10px 10px 10px;
+    background-color: #ddd;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+.cell {
+    text-align: left;
+}
+.poster {
+    padding-left: 10px;
+    vertical-align: top;
+}
+.info {
+    text-align: left;
+    padding-left:8px;
+    font-weight: 600;
+}
+.label {
+    padding-left:10px;
+    text-align: left;
+    font-size: 9pt;
+    max-width: 30px;
+    white-space: nowrap;
+}
+.title {
+    font-size: 14pt;
+    font-weight: bold;
+}
+.rating {
+    font-style: italic;
+}
+.summary {
+    padding-left:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+div.dt-container.dt-empty-footer tbody > tr:last-child > * {
+    border-bottom:none !important
+}
