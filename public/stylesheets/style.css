@@ -2,18 +2,15 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
 a {
   color: #00B7FF;
 }
-
 .movieDetail {
     margin: 10px 10px 10px 10px;
     background-color: #ddd;
     border: 1px solid #888;
     border-radius: 3px;
 }
-
 .cell {
     text-align: left;
 }
