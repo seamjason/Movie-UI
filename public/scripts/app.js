@@ -42,11 +42,11 @@ $(document).ready(function () {
                     data: null,
                     defaultContent: ''
                 },
-                { "title": "ID", "data": "id", visible: false},
-                { "title": "Title", "data": "title", class: "cell" },
-                { "title": "Rating", "data": "rating", defaultContent: "", class: "cell" },
+                { "title": "ID", "data": "id", visible: false, orderable: false },
+                { "title": "Title", "data": "title", class: "cell", orderable: false },
+                { "title": "Rating", "data": "rating", defaultContent: "", class: "cell", orderable: false },
                 {
-                    "title": "Poster", "data": "posterUrl", defaultContent: "", class: "cell", render:
+                    "title": "Poster", "data": "posterUrl", defaultContent: "", class: "cell", orderable: false, render:
                         function (data, type, columns, meta) {
                             cellValue = "<a target='_blank' href='" + data + "'>Show &gt;</a>";
                             return cellValue;
