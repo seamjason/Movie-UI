@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/8bde1b0b-78cb-4d0d-8608-a4490dccfff4/resourceGroups/movie-ui/providers/Microsoft.Web/sites/movie-ui",
+    "appService.deploySubpath": "."
+}
